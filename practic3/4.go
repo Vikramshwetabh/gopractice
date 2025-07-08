@@ -23,7 +23,6 @@ func (e *Employee) info() {
 func main() {
 	a := Person{age: 5, name: "Vik"}
 	b := Employee{Person: a, EmpId: 11}
-	b.Person.info()
-	a.info()
+	b.info()
 
 }
